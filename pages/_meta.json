@@ -1,7 +1,44 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": {
+    "title": "Home",
+    "theme": {
+      "layout": "raw"
+    },
+    "type": "page",
+    "display": "hidden"
+  },
+  "epk": {
+    "title": "DJ Press Kit",
+    "theme": {
+      "sidebar": false,
+      "pagination": false
+    },
+    "display": "hidden"
+  },
+  "testprep": {
+    "title": "Test Prep",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "shsat": {
+    "title": "SHSAT Guide",
+    "theme": {
+      "breadcrumb": false,
+      "sidebar": true,
+      "pagination": true
+    }
+  },
+  "lists": {
+    "title": "Entertainment lists",
+    "type": "page",
+    "display": "hidden"
+  },
+  "tickets": {
+    "title": "Entertainment lists",
+    "type": "page",
+    "display": "hidden"
+  },
   "about": {
     "title": "About",
     "type": "page"
