@@ -5,16 +5,16 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
 const CategoryTitle = ({ children }) => {
   return (
     <h4 className="text-slate-900 dark:text-slate-400 pt-7 pb-2 text-lg">
       {children}
     </h4>
-  )
-}
+  );
+};
 
 const BlogLink = ({ to, children }) => {
   return (
@@ -24,8 +24,8 @@ const BlogLink = ({ to, children }) => {
     >
       {children}
     </Link>
-  )
-}
+  );
+};
 
 const Sidebar = () => {
   return (
@@ -208,7 +208,7 @@ const Sidebar = () => {
         <BlogLink to={url}>{title}</BlogLink>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
