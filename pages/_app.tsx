@@ -7,7 +7,7 @@ export default function Nextra({
   Component,
   pageProps,
 }: AppProps): ReactElement {
-  return <div data-theme="mytheme">
+  return <div>
     <Component {...pageProps} />
   </div>
 }

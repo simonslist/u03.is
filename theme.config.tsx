@@ -36,5 +36,11 @@ search:{
   placeholder: "Search u03.is"
 },
 primaryHue:360,
+// darkMode: false,
+nextThemes: {
+  attribute: 'className',
+  // enableSystem: false,
+  // defaultTheme:'dark'
+}
 
 }

@@ -6,7 +6,13 @@ module.exports = {
     "./theme.config.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        red: {
+          1000: "#ff0000",
+        },
+      },
+    },
   },
   plugins: [require("daisyui")],
   darkMode: "class",
