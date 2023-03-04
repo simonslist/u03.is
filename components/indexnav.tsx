@@ -3,12 +3,8 @@ import ListLink from "./listlink";
 
 const IndexNav = ({ d, href }) => {
   return (
-    <main className=" pt-20">
-      <div className="flex flex-row place-content-center ">
-        <div
-          className="prose md:w-[60vw]"
-        >
-          <nav aria-label="Primary navigation" className=" h-[100vh] md:px-28">
+    <main className=" py-20 mx-auto md:max-w-[41vw]">
+      <nav aria-label="Primary navigation">
             <div className="flex flex-col justify-center gap-10 text-primary ">
               <div className="flex flex-row justify-between border-b border-primary py-4">
                 <SocialLink
@@ -56,8 +52,6 @@ const IndexNav = ({ d, href }) => {
               </a>
             </div>
           </nav>
-        </div>
-      </div>
     </main>
   );
 };
