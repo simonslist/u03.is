@@ -15,13 +15,14 @@ const Hero = () => {
           alt="Simon"
           class="rounded-lg shadow-2xl md:col-span-3 md:col-start-10 lg:mt-28"
         />
-        <section class="mt-10 ml-10 text-center md:col-span-8 md:-mt-28 md:pl-36 md:text-left">
+        <section class="pt-20 ml-10 text-center md:col-span-8 md:-mt-28 md:pl-36 md:text-left">
           <p class="text-md mb-0 text-base md:text-3xl">
-            This is a special opportunity to drastically increase your child's
-            chances of passing the SHSAT and attending a top tier school.
+            This is a special opportunity for you to drastically increase your
+            child's chances of passing the SHSAT and attending a top tier high
+            school.
           </p>
           <a
-            class=" btn btn-outline btn-red btn-md my-10 border-2 text-2xl "
+            class=" btn btn-outline btn-primary btn-md my-10 border-2 text-2xl "
             href="#consultation"
           >
             Get Your Free consultation

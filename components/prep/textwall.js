@@ -1,8 +1,8 @@
-import * as React from "react"
+import * as React from "react";
 const TextWall = () => {
   return (
     <section class="justify-center bg-black p-20 pb-96">
-      <div class=" columns-2 gap-10 bg-secondary/50 p-10 text-white ">
+      <div class=" columns-2 gap-10 bg-primary/20 p-10 text-white ">
         <p>
           Pellentesque habitant morbi tristique senectus et netus et malesuada
           fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
@@ -70,7 +70,7 @@ const TextWall = () => {
         </p>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TextWall
+export default TextWall;

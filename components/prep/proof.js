@@ -23,7 +23,7 @@ const Result2 = ({ result, reflection }) => {
 const Result = ({ year, name, school, reflection }) => {
   return (
     <div className="text-left text-white/80">
-      <h2 className="flex flex-col justify-center bg-gradient-to-r from-orange-500 to-red-800 bg-clip-text pb-10 text-transparent">
+      <h2 className="flex flex-col justify-center bg-gradient-to-r from-red-800 to-primary bg-clip-text pb-10 text-transparent">
         <div class="text-5xl">{year}</div>
         <div class="text-5xl ">{name}</div>
         <div class="text-6xl font-extrabold">{school}</div>

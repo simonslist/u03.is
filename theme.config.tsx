@@ -39,7 +39,7 @@ export default {
 search:{
   placeholder: "Search u03.is"
 },
-primaryHue:360,
+primaryHue:{ dark: 360, light: 240 },
 // darkMode: false,
 nextThemes: {
   // enableSystem: false,
