@@ -7,32 +7,35 @@
     "type": "page",
     "display": "hidden"
   },
-  "epk": {
-    "title": "DJ Press Kit",
-    "theme": {
-      "sidebar": false,
-      "pagination": false
-    },
-    "display": "hidden"
-  },
+  
   "testprep": {
-    "title": "Test Prep",
+    "title": "NYC Standardized Test Prep",
     "theme": {
       "layout": "raw"
     }
   },
   "shsat": {
-    "title": "SHSAT Guide",
+    "title": "SHSAT Study Guide",
     "theme": {
-      "breadcrumb": false,
-      "sidebar": true,
-      "pagination": true
+      "breadcrumb": false
+    }
+  },
+  "epk": {
+    "title": "DJ Press Kit",
+    "theme": {
+      "sidebar": false,
+      "pagination": false,
+      "breadcrumb": false
     }
   },
   "lists": {
     "title": "Entertainment lists",
-    "type": "page",
-    "display": "hidden"
+    "theme": {
+      "sidebar": false,
+      "breadcrumb": false,
+      "pagination": false,
+      "toc": false
+    }
   },
   "tickets": {
     "title": "Entertainment lists",
@@ -42,11 +45,5 @@
   "about": {
     "title": "About",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   }
 }

@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
 import Image from "next/image";
 import logo from "./public/logo/logo.svg"
+import SwitchTheme from "./components/SwitchTheme";
 
 export default {
   head: () => {
@@ -21,6 +22,9 @@ export default {
   logo: (
     <Image className="w-16 fill-red-400 m-0" src={logo} alt="flyer" />
   ),
+  navbar:{
+  //  extraContent: <SwitchTheme/>
+  },
   banner: {
     key: '0.2-release',
     text: <a href="/about" className="py-5" target="_blank">
@@ -28,7 +32,7 @@ export default {
     </a>,
   },
   
-  docsRepositoryBase: "https://github.com/u03is/u03.is/tree/main/pages",
+  docsRepositoryBase: "https://github.com/u03is/u03.is/tree/main/",
   footer: {
     text: "u03.is",
 },
@@ -38,9 +42,10 @@ search:{
 primaryHue:360,
 // darkMode: false,
 nextThemes: {
-  attribute: 'className',
   // enableSystem: false,
-  // defaultTheme:'dark'
+},
+feedback:{
+  content:null
 }
 
 }

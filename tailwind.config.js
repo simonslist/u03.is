@@ -17,6 +17,28 @@ module.exports = {
   plugins: [require("daisyui")],
   darkMode: "class",
   daisyui: {
-    themes: [],
+    themes: [
+      {
+        mytheme: {
+          primary: "#ff0000",
+
+          secondary: "#9fb5e0",
+
+          accent: "#6e63bf",
+
+          neutral: "#18161D",
+
+          "base-100": "#fff",
+
+          info: "#6FB4EC",
+
+          success: "#158A76",
+
+          warning: "#975B0C",
+
+          error: "#F06678",
+        },
+      },
+    ],
   },
 };
