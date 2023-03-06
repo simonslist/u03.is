@@ -3,7 +3,7 @@ import ListLink from "./listlink";
 
 const IndexNav = ({ d, href }) => {
   return (
-    <main className=" py-20 mx-auto md:max-w-[41vw] px-10">
+    <main className="py-12 sm:py-20 mx-auto md:max-w-[41vw] px-10">
       <nav aria-label="Primary navigation">
             <div className="flex flex-col justify-center gap-10 text-base-100">
               <div className="flex flex-row justify-between border-b border-blue-900 dark:border-primary py-4">
@@ -39,13 +39,13 @@ const IndexNav = ({ d, href }) => {
               <ListLink href="/lists" label="Entertainment Lists" />
               <ListLink href="/epk" label="DJ Press Kit" />
               <a href="https://instagram.com/rave.rat.nyc">
-                NYC: IG Rave Rat
+                IG @rave.rat.nyc
               </a>
-              <a href="https://facebook.com/groups/la.sindigata.de.las.nalgoticas">
-                CDMX: IG La Sindigata de las Nalgoticas
+              <a href="https://instagram.com/la.sindigata.de.las.nalgoticas">
+                IG @la.sindigata.de.las.nalgoticas (CDMX)
               </a>
               <a href="https://facebook.com/groups/cdmxflyers">
-                CDMX: FB Flyer Group
+                FB Flyer Group (CDMX)
               </a>
               <a href="/tickets">
                 Tickets
