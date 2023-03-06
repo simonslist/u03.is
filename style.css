@@ -9,7 +9,7 @@
 }
 
 .prose {
-  max-width: 60ch;
+  max-width: none;
 }
 
 .mailchimpform {
@@ -27,10 +27,6 @@
 
 .proof img {
   @apply rounded-xl;
-}
-.review img {
-  /* @apply my-5; */
-  @apply rounded-r-none;
 }
 
 p {

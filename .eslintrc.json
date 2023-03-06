@@ -1,6 +1,5 @@
 {
   "extends": ["next/core-web-vitals",
-    "some-other-config-you-use",
     "next",
     "prettier"
   ]
