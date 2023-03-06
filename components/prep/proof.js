@@ -129,7 +129,7 @@ const Proof = () => {
           reflection='Lucas was a very inquisitive student who always came to our sessions with new problem-specific questions. We started prepping about a year before the exam. We were waiting until the school tours in Octoebr for him to determine his target school. In order to cover all his bases we prepped with Stuy in mind. Weeks before the exam, he decided to apply for Brooklyn Tech and so we changed our strategy. Since he was already scoring at a Stuy level, we spent the rest of our time on aggressive question-skipping so that he could consistently score above the cutoff for Brooklyn Tech while also having plenty of time left over in case of non-ideal testing conditions..'
         />
       </div>
-      <div class='col-span-5 col-start-8 mt-72'>
+      <div class='col-span-5 col-start-8 sm:mt-72'>
         <Image src={lucasmessage} alt='Lucas' />
       </div>
 
@@ -159,7 +159,7 @@ const Proof = () => {
           reflection='Ethan was a silly student. I have no idea how he got in. '
         />
       </div>
-      <div class='col-span-4 col-start-8 pt-56 '>
+      <div class='col-span-4 col-start-8 pt-20  pb-56 '>
         <Image src={jennymessage} alt='Jenny' />
       </div>
     </section>

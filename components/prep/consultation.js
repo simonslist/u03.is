@@ -7,7 +7,7 @@ const Consultation = () => {
       class='grid grid-cols-12 bg-black py-36 px-5 lg:px-36'
     >
       <div class='col-span-12 '>
-        <div class='mx-auto max-w-screen-md p-5'>
+        <div class='mx-auto max-w-screen-md'>
           <div class='mb-16 text-center'>
             <h2 class='text-3xl font-extrabold leading-normal tracking-tight text-white sm:text-4xl'>
               Free Consultation
