@@ -1,6 +1,6 @@
 {
   "index": {
-    "title": "Home",
+    "title": "u03.is",
     "theme": {
       "layout": "raw"
     },
@@ -8,7 +8,7 @@
     "display": "hidden"
   },
   "about": {
-    "title": "About",
+    "title": "About u03.is",
     "type": "page"
   },
   "epk": {

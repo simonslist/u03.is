@@ -61,3 +61,7 @@ p {
   > span.nx-absolute.nx-inset-x-0.nx-text-center {
   color: black;
 } */
+
+article.nx-w-full {
+  padding: 0 !important;
+}

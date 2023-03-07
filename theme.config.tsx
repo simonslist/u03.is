@@ -3,7 +3,6 @@ import { useRouter } from 'next/router'
 import { useConfig } from 'nextra-theme-docs'
 import Image from "next/image";
 import logo from "./public/logo/logo.svg"
-import SwitchTheme from "./components/SwitchTheme";
 
 export default {
   head: () => {
