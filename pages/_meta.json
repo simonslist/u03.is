@@ -7,19 +7,9 @@
     "type": "page",
     "display": "hidden"
   },
-  
-  "---": {
-    "type": "separator"
-  },
-  "shsat": {
-    "title": "SHSAT Study Guide",
-    "theme": {
-      "breadcrumb": false,
-      "toc": false,
-      "layout": "full",
-      "footer": false,
-      "pagination": false
-    }
+  "about": {
+    "title": "About",
+    "type": "page"
   },
   "epk": {
     "title": "DJ Press Kit",
@@ -29,8 +19,24 @@
       "breadcrumb": false
     }
   },
+  
+  "---": {
+    "type": "separator"
+  },
+  "shsat": {
+    "title": "SHSAT Test Prep and Study Guide",
+    "theme": {
+      "breadcrumb": false,
+      "toc": false,
+      "layout": "full",
+      "footer": false,
+      "pagination": false
+    }
+  },
+  
   "lists": {
     "title": "Entertainment lists",
+    "display": "hidden",
     "theme": {
       "sidebar": false,
       "breadcrumb": false,
@@ -47,9 +53,6 @@
     "title": "Entertainment lists",
     "type": "page",
     "display": "hidden"
-  },
-  "about": {
-    "title": "About",
-    "type": "page"
   }
+ 
 }

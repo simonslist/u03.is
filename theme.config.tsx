@@ -25,13 +25,6 @@ export default {
   navbar:{
   //  extraContent: <SwitchTheme/>
   },
-  banner: {
-    key: '0.2-release',
-    text: <a href="/about" className="py-5" target="_blank">
-      One website for all my projects. Under heavy construction!
-    </a>,
-  },
-  
   docsRepositoryBase: "https://github.com/u03is/u03.is/tree/main/",
   footer: {
     text: "u03.is",
