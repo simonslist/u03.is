@@ -1,7 +1,7 @@
-import SocialLink from "./sociallink";
-import ListLink from "./listlink";
+import SocialLink from "../components/sociallink";
+import ListLink from "../components/listlink";
 
-const IndexNav = ({ d, href }) => {
+const IndexNav = () => {
   return (
     <main className="py-12 sm:py-20 mx-auto md:max-w-[41vw] px-10">
       <nav aria-label="Primary navigation">
@@ -33,23 +33,12 @@ const IndexNav = ({ d, href }) => {
                   href="https://linkedin.com/in/u03is"
                 />
               </div>
-              <ListLink href="testprep" label="NYC Standardized Exam Prep" />
-              <ListLink href="shsat" label="SHSAT Study Guide" />
-              <ListLink href="#" label="DJ, Rave, Lifestyle Blog" />
+              <ListLink href="shsat" label="SHSAT Test Prep and Study Guide " />
+              {/* <ListLink href="#" label="DJ, Rave, Lifestyle Blog" /> */}
               <ListLink href="/lists" label="Entertainment Lists" />
               <ListLink href="/epk" label="DJ Press Kit" />
-              <a href="https://instagram.com/rave.rat.nyc">
-                IG @rave.rat.nyc
-              </a>
-              <a href="https://instagram.com/la.sindigata.de.las.nalgoticas">
-                IG @la.sindigata.de.las.nalgoticas (CDMX)
-              </a>
-              <a href="https://facebook.com/groups/cdmxflyers">
-                FB Flyer Group (CDMX)
-              </a>
-              <a href="/tickets">
-                Tickets
-              </a>
+              <ListLink href="/flyer-projects" label="Rave Flyer Projects" />
+              
             </div>
           </nav>
     </main>

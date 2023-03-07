@@ -8,16 +8,17 @@
     "display": "hidden"
   },
   
-  "testprep": {
-    "title": "NYC Standardized Test Prep",
-    "theme": {
-      "layout": "raw"
-    }
+  "---": {
+    "type": "separator"
   },
   "shsat": {
     "title": "SHSAT Study Guide",
     "theme": {
-      "breadcrumb": false
+      "breadcrumb": false,
+      "toc": false,
+      "layout": "full",
+      "footer": false,
+      "pagination": false
     }
   },
   "epk": {
@@ -36,6 +37,11 @@
       "pagination": false,
       "toc": false
     }
+  },
+  "flyer-projects" : {
+    "title": "Rave Flyer Projects",
+    "type": "page",
+    "display": "hidden"
   },
   "tickets": {
     "title": "Entertainment lists",

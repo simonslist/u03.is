@@ -29,10 +29,10 @@ const PriceCard = ({ type, price, recommendation }) => {
 
 const Pricing = () => {
   return (
-    <section class='bg-black'>
-      <section class='bg-blue-600/20 p-5 py-28 lg:min-h-screen lg:p-28'>
+    <section class='bg-stone-900'>
+      <section class='p-5 py-28 lg:min-h-screen lg:p-16'>
         <h1 class='text-5xl text-white'>Pricing</h1>
-        <div class='flex grid-cols-3 flex-col gap-10 pt-20 md:grid md:grid-cols-12 lg:grid-cols-12 lg:gap-20'>
+        <div class='flex grid-cols-3 flex-col gap-10 pt-20 md:grid md:grid-cols-12 lg:grid-cols-12 lg:gap-8'>
           <PriceCard
             type='1 hour'
             price={oneHour}

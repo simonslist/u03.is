@@ -1,0 +1,9 @@
+{
+  "*": {
+    "theme": {
+      "breadcrumb": true,
+      "toc": true,
+      "layout": "default"
+    }
+  }
+}
