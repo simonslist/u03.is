@@ -35,9 +35,9 @@ const IndexNav = () => {
               </div>
               <ListLink href="shsat" label="SHSAT Study Guide and Test Prep Service" />
               {/* <ListLink href="#" label="DJ, Rave, Lifestyle Blog" /> */}
-              <ListLink href="/lists" label="Entertainment Lists" />
+              <ListLink href="/lists" label="Movies, books, animes, & mangas I like" />
               <ListLink href="/epk" label="DJ Press Kit" />
-              <ListLink href="/flyer-projects" label="Rave Flyer Projects" />
+              <ListLink href="/flyer-projects" label="Rave Flyer Sharing Projects" />
               
             </div>
           </nav>
