@@ -8,23 +8,19 @@
     "display": "hidden"
   },
   "about": {
-    "title": "About u03.is",
+    "title": "About",
     "type": "page"
   },
   "epk": {
     "title": "DJ Press Kit",
     "theme": {
-      "sidebar": false,
       "pagination": false,
       "breadcrumb": false
     }
   },
-  
-  "---": {
-    "type": "separator"
-  },
+
   "shsat": {
-    "title": "SHSAT Test Prep and Study Guide",
+    "title": "SHSAT Study Guide and Test Prep Service",
     "theme": {
       "breadcrumb": false,
       "toc": false,
@@ -35,7 +31,7 @@
   },
   
   "lists": {
-    "title": "Entertainment lists",
+    "title": "Movies, books, animes, & mangas I like",
     "display": "hidden",
     "theme": {
       "sidebar": false,
@@ -50,7 +46,7 @@
     "display": "hidden"
   },
   "tickets": {
-    "title": "Entertainment lists",
+    "title": "Tickets",
     "type": "page",
     "display": "hidden"
   }

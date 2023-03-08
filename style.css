@@ -65,3 +65,7 @@ p {
 article.nx-w-full {
   padding: 0 !important;
 }
+
+article time {
+  @apply pr-5;
+}

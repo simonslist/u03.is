@@ -1,31 +1,33 @@
 import * as React from 'react';
 
 import Image from 'next/image';
-import milancard from '../../public/prep/milancard.jpg';
-import reesemessage from '../../public/prep/reesemessage.jpg';
-import jiyoung from '../../public/prep/jiyoung.jpg';
-import maggiemessage from '../../public/prep/maggiemessage.jpeg';
-import lucasmessage from '../../public/prep/lucasmessage.jpg';
-import anja from '../../public/prep/anja.jpeg';
-import jennymessage from '../../public/prep/jennymessage.jpeg';
+import milancard from '../../../public/prep/milancard.jpg';
+import reesemessage from '../../../public/prep/reesemessage.jpg';
+import jiyoung from '../../../public/prep/jiyoung.jpg';
+import maggiemessage from '../../../public/prep/maggiemessage.jpeg';
+import lucasmessage from '../../../public/prep/lucasmessage.jpg';
+import anja from '../../../public/prep/anja.jpeg';
+import jennymessage from '../../../public/prep/jennymessage.jpeg';
 
 const Result = ({ year, name, school, reflection }) => {
   return (
     <div className='text-left text-white/80'>
       <h2 className='flex flex-col justify-center bg-gradient-to-r from-red-800 to-primary bg-clip-text pb-10 text-transparent'>
-        <div class='text-5xl'>{year}</div>
-        <div class='text-5xl '>{name}</div>
-        <div class='text-6xl font-extrabold'>{school}</div>
+        <div class='text-3xl sm:text-5xl'>{year}</div>
+        <div class='text-3xl sm:text-5xl'>{name}</div>
+        <div class='text-4xl font-extrabold sm:text-7xl'>{school}</div>
       </h2>
-      <p class='text-lg leading-loose text-white sm:text-2xl'>{reflection}</p>
+      <p class='text-lg text-white sm:text-2xl sm:leading-loose'>
+        {reflection}
+      </p>
     </div>
   );
 };
 
 const Review = ({ name, relationship, school, review, children }) => {
   return (
-    <div class=' card rounded-lg  px-5 pt-5 text-white'>
-      <p class='text-lg leading-loose text-white sm:text-2xl'>"{review}"</p>
+    <div class=' card rounded-lg  pt-5 text-white sm:px-5'>
+      <p class='text-lg text-white sm:text-2xl sm:leading-loose'>"{review}"</p>
       <div class='grid grid-cols-12  bg-black pt-5'>
         <div class='place-end col-span-10 flex flex-col justify-end  text-right text-white'>
           <span class='pr-3'>{name}</span>
@@ -39,7 +41,7 @@ const Review = ({ name, relationship, school, review, children }) => {
 
 const Proof = () => {
   return (
-    <section class='proof flex grid-cols-12 flex-col gap-20 gap-y-24 bg-black px-5 sm:gap-y-36 md:grid md:py-56 md:px-20'>
+    <section class='proof flex grid-cols-12 flex-col gap-20 gap-y-24 bg-black px-5 pb-48 sm:gap-y-36 md:grid md:py-56 md:px-20'>
       <div class='col-span-9 col-start-1'>
         <Result
           year='2015'
@@ -73,7 +75,7 @@ const Proof = () => {
       <div class='col-span-5 col-start-1'>
         <Image src={reesemessage} alt='Reese' />
       </div>
-      <div class='col-span-7 col-start-6 pt-56'>
+      <div class='col-span-7 col-start-6 sm:pt-56'>
         <Result
           year='2016'
           name='Reese KD.'
@@ -142,7 +144,7 @@ const Proof = () => {
           reflection='Jullian and his parents had a bunch of different goals for him that were all somewhat related to SHSAT prep. His parents wanted him to apply for Laguardia (via auditions), Xavier, and also Brooklyn Latin. The latter two required similiar exam prep. The first school required slightly higher school grades which is also something we indirectly worked on in the beginning stages of his test-prep. In the end he was accepted into his first choice, Laguardia, and also Xavier which we specifically prepped for via SHSAT test-prep and limited HSPT test-prep materials.'
         />
       </div>
-      <div class='col-span-4 col-start-1 pb-56 sm:mt-28 '>
+      <div class='col-span-4 col-start-1 sm:mt-28 sm:pb-56 '>
         <Image src={jennymessage} alt='Jenny' />
       </div>
       <div class='col-span-8 col-start-5'>

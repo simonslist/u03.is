@@ -33,7 +33,7 @@ const IndexNav = () => {
                   href="https://linkedin.com/in/u03is"
                 />
               </div>
-              <ListLink href="shsat" label="SHSAT Test Prep and Study Guide " />
+              <ListLink href="shsat" label="SHSAT Study Guide and Test Prep Service" />
               {/* <ListLink href="#" label="DJ, Rave, Lifestyle Blog" /> */}
               <ListLink href="/lists" label="Entertainment Lists" />
               <ListLink href="/epk" label="DJ Press Kit" />

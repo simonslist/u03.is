@@ -4,12 +4,12 @@ const Consultation = () => {
   return (
     <div
       id='consultation'
-      class='grid grid-cols-12 bg-black py-36 px-5 lg:px-36'
+      class='grid grid-cols-12 bg-black px-5 pb-56 pt-24 lg:px-36'
     >
       <div class='col-span-12 '>
         <div class='mx-auto max-w-screen-md'>
           <div class='mb-16 text-center'>
-            <h2 class='text-3xl font-extrabold leading-normal tracking-tight text-white sm:text-4xl'>
+            <h2 class='pb-10 text-3xl font-extrabold leading-normal tracking-tight text-white sm:text-4xl'>
               Free Consultation
             </h2>
           </div>
@@ -101,7 +101,7 @@ const Consultation = () => {
                   </label>
                 </div>
                 <button
-                  class='focus:shadow-outline rounded bg-secondary py-2 px-6 font-bold text-white shadow hover:bg-black focus:outline-none'
+                  class='sm:text-md btn-outline btn-primary btn-sm btn border-2'
                   type='submit'
                 >
                   Send Message
