@@ -3,7 +3,7 @@ import ListLink from "../components/listlink";
 
 const IndexNav = () => {
   return (
-    <main className="py-12 sm:py-20 mx-auto md:max-w-[41vw] px-10">
+    <main className="py-12 sm:py-20 mx-auto md:max-w-[41vw] px-5">
       <nav aria-label="Primary navigation">
             <div className="flex flex-col justify-center gap-10 text-black dark:text-white">
               <div className="flex flex-row justify-between border-b border-blue-900 dark:border-primary py-4">
