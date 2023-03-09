@@ -27,7 +27,9 @@ export default {
     </>
   },
   logo: (
-    <Image className="w-16 fill-green-400 m-0" src={logo} alt="flyer" />
+    <span style={{ marginLeft: '.4em' }} className="text-3xl">
+        u03.is
+      </span>
   ),
   navbar:{
   //  extraContent: <SwitchTheme/>
@@ -42,7 +44,7 @@ search:{
 sidebar: {
   defaultMenuCollapseLevel:0
 },
-primaryHue:{ dark: 360, light: 240 },
+// primaryHue:{ dark: 360, light: 240 },
 // darkMode: false,
 nextThemes: {
   // enableSystem: false,

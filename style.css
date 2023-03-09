@@ -69,3 +69,31 @@ article.nx-w-full {
 article time {
   @apply pr-5;
 }
+
+@media (min-width: 768px) {
+  aside {
+    width: 20rem !important;
+  }
+}
+
+html[class~='dark'] .dark\:nx-bg-primary-500\/10 {
+  background-color: hsl(var(--nextra-primary-hue) 100% 100%/0.1) !important;
+}
+
+.nx-bg-primary-50 {
+  @apply bg-neutral-300 !important;
+}
+
+.dark .nx-text-primary-600 {
+  --tw-text-opacity: 1;
+  color: hsl(
+    var(--nextra-primary-hue) 100% 100% / var(--tw-text-opacity)
+  ) !important;
+}
+
+.nx-text-primary-600 {
+  --tw-text-opacity: 1;
+  color: hsl(
+    var(--nextra-primary-hue) 100% 0% / var(--tw-text-opacity)
+  ) !important;
+}
