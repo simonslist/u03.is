@@ -16,11 +16,12 @@
     "theme": {
       "pagination": false,
       "breadcrumb": false
-    }
+    },
+    "type": "page"
   },
 
   "shsat": {
-    "title": "SHSAT Study Guide and Test Prep Service",
+    "title": "SHSAT Study Guide",
     "theme": {
       "breadcrumb": false,
       "toc": false,

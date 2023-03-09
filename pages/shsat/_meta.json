@@ -5,5 +5,35 @@
       "toc": true,
       "layout": "default"
     }
+  },
+  "-- Start Here": {
+    "type": "separator",
+    "title": "Start Here"
+  },
+  "what-is-the-shsat":"What is the SHSAT?",
+  "about-the-specialized-high-schools":"About the Specialized High Schools",
+  "how-to-prepare":"How to Prepare", 
+  "-- Promotional Links": {
+    "type": "separator",
+    "title": "Promotional Links"
+  },
+  "workbooks":"Best Workbooks for Prep",
+  "supplies":"Supplies for Studying & Exam Day",
+  "-- Revising/Editing Part A (Grammar)": {
+    "type": "separator",
+    "title": "Revising/Editing Part A (Grammar)"
+  },
+  "-- Revising/Editing Part B (Structure)": {
+    "type": "separator",
+    "title": "Revising/Editing Part B (Structure)"
+  },
+  "-- Reading": {
+    "type": "separator",
+    "title": "Reading"
+  },
+  "-- Math": {
+    "type": "separator",
+    "title": "Math"
   }
+  
 }

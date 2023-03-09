@@ -4,6 +4,7 @@ import ListLink from "../components/listlink";
 const IndexNav = () => {
   return (
     <main className="py-12 sm:py-20 mx-auto md:max-w-[41vw] px-5">
+      <p className="text-red-700 pb-3">This website is going through major updates. Some parts need to be rewritten. Please message me if you're looking for something specific. Thanks! - Wednesday Mar 7, 2023</p>
       <nav aria-label="Primary navigation">
             <div className="flex flex-col justify-center gap-10 text-black dark:text-white">
               <div className="flex flex-row justify-between border-b border-blue-900 dark:border-primary py-4">
