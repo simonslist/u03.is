@@ -41,6 +41,7 @@ const IndexNav = () => {
               
             </div>
           </nav>
+          <p className="dark:text-neutral-100 pt-16">This website is going through major updates. Some parts need to be rewritten. Please message me if you're looking for something specific. Thanks! - Wednesday Mar 14, 2023</p>
     </main>
   );
 };
