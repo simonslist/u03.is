@@ -23,11 +23,11 @@ export default {
     return <>
       <meta property="og:url" content={url} />
       <meta property="og:title" content={frontMatter.title || 'u03.is'} />
-      <meta property="og:description" content={frontMatter.description || 'The next site builder'} />
+      <meta property="og:description" content={frontMatter.description || 'An index of all my projects.'} />
     </>
   },
   logo: (
-    <span style={{ marginLeft: '.4em' }} className="text-3xl">
+    <span style={{ marginLeft: '.4em' }} className="text-2xl">
         u03.is
       </span>
   ),
